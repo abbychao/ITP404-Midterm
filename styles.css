@@ -1,0 +1,31 @@
+h1 {text-align: center;}
+#content {
+	width: 1200px;
+	margin: auto;
+}
+#map {
+	height: 400px;
+	width: 800px;
+	margin: 0;
+	float:left;
+}
+#tweets {
+	height: 400px;
+	width: 400px;
+	margin: 0;
+	float:left;
+	overflow: auto;
+}
+#info {
+	width: 1200px;
+	height: 200px;
+	margin: auto;
+	overflow: auto;
+}
+.show {
+	height: 50px;
+	width: 200px;
+	float: left;
+	vertical-align: top;
+	background-color: red;
+}
