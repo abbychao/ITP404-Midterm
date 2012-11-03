@@ -45,7 +45,7 @@ function processJSONP(data) {
 	// for (var i=0; i<data.events.event.length; i++) {
 	var i = 0;
 	while (i < data.events.event.length) {
-		html += template(data.events.event[i]) + "<br>";
+		html += template(data.events.event[i]);
 		addMarker(data.events.event[i].city_name, data.events.event[i].latitude ,data.events.event[i].longitude)
 		i++;
 	}
